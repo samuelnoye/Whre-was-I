@@ -29,6 +29,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             return
         }
         print("lat:\(lat) and long:\(long)")
+        DataStore().StoredDataPoint(latitude: String(lat), longitude: String(long))
         
     }
     
