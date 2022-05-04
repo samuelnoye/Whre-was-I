@@ -23,9 +23,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
          
         if let oldCoords = DataStore().GetLastLocation() {
             let annotation = MKPointAnnotation()
+            annotation.title = "I was here"
+            annotation.subtitle = "remember!"
+            
             annotation.coordinate.latitude = Double(oldCoords.latitude)!
             annotation.coordinate.longitude = Double(oldCoords.longitude)!
-            
+            mapView.addAnnotation(annotation)
         }
     }
  
