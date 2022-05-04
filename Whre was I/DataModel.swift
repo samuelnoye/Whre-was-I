@@ -9,10 +9,10 @@ import Foundation
 
 class VisitedPoint {
     var latitude: String
-    var longtitude: String
+    var longitude: String
     
-    init(lat: String, lon: String) {
+    init(lat: String, long: String) {
         self.latitude = lat
-        self.longtitude = lon
+        self.longitude = long
     }
 }
