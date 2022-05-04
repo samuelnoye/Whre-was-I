@@ -29,6 +29,9 @@
                             <constraint firstItem="LMI-ac-CiH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xt2-xl-jzQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="LMI-ac-CiH" id="4oV-Im-lqf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
