@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D5E5C2292822CB7A00DA0453 /* Whre was I.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whre was I.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E5C2292822CB7A00DA0453 /* Where was I.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where was I.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E5C22C2822CB7A00DA0453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5E5C22E2822CB7A00DA0453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D5E5C2302822CB7A00DA0453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		D5E5C22A2822CB7A00DA0453 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5E5C2292822CB7A00DA0453 /* Whre was I.app */,
+				D5E5C2292822CB7A00DA0453 /* Where was I.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5E5C2282822CB7A00DA0453 /* Whre was I */ = {
+		D5E5C2282822CB7A00DA0453 /* Where was I */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5E5C23D2822CB7C00DA0453 /* Build configuration list for PBXNativeTarget "Whre was I" */;
+			buildConfigurationList = D5E5C23D2822CB7C00DA0453 /* Build configuration list for PBXNativeTarget "Where was I" */;
 			buildPhases = (
 				D5E5C2252822CB7A00DA0453 /* Sources */,
 				D5E5C2262822CB7A00DA0453 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "Whre was I";
+			name = "Where was I";
 			productName = "Whre was I";
-			productReference = D5E5C2292822CB7A00DA0453 /* Whre was I.app */;
+			productReference = D5E5C2292822CB7A00DA0453 /* Where was I.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5E5C2242822CB7A00DA0453 /* Build configuration list for PBXProject "Whre was I" */;
+			buildConfigurationList = D5E5C2242822CB7A00DA0453 /* Build configuration list for PBXProject "Where was I" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5E5C2282822CB7A00DA0453 /* Whre was I */,
+				D5E5C2282822CB7A00DA0453 /* Where was I */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5E5C2242822CB7A00DA0453 /* Build configuration list for PBXProject "Whre was I" */ = {
+		D5E5C2242822CB7A00DA0453 /* Build configuration list for PBXProject "Where was I" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5E5C23B2822CB7C00DA0453 /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5E5C23D2822CB7C00DA0453 /* Build configuration list for PBXNativeTarget "Whre was I" */ = {
+		D5E5C23D2822CB7C00DA0453 /* Build configuration list for PBXNativeTarget "Where was I" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5E5C23E2822CB7C00DA0453 /* Debug */,
