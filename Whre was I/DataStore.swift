@@ -21,5 +21,15 @@ class DataStore {
         def.setValue(latitude, forKey: StorageKeys.storedLat)
         def.setValue(longitude, forKey: StorageKeys.storedLong)
         def.synchronize()
+        
+        print(latitude + ":" + longitude)
     }
+    func GetLastLocation () -> VisitedPoint? {
+        let defualts = GetDefualts()
+      guard  let lat = defualts.string(forKey: StorageKeys.storedLat),
+             let long = defualts.string(forKey: StorageKeys.storedLong) else{
+        return nil
+    }
+        return VisitedPoint(lat: lat, long: long)
+}
 }
