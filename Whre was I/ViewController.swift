@@ -23,6 +23,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
  
     @IBAction func saveBtnClicked(_ sender: UIBarButtonItem) {
+        let coord = locationManager.location?.coordinate
+        guard let lat = coord?.latitude, let long = coord?.longitude else {
+            print("Location not found")
+            return
+        }
+        print("lat:\(lat) and long:\(long)")
         
     }
     
