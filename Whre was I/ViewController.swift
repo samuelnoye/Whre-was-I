@@ -21,7 +21,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
     }
-
+ 
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        guard status ==  .authorizedWhenInUse else {
+            print("Location not enabled")
+            return
+        }
+        print("Location allowed")
+        mapView.showsUserLocation = true
+    }
 
 }
 
