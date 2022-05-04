@@ -22,6 +22,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
     }
  
+    @IBAction func saveBtnClicked(_ sender: UIBarButtonItem) {
+        
+    }
+    
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         guard status ==  .authorizedWhenInUse else {
             print("Location not enabled")
