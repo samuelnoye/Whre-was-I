@@ -22,7 +22,13 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Odv-Wm-uW8">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="faR-Xn-mci"/>
+                                    <navigationItem title="Where was I" id="faR-Xn-mci">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="1TC-bX-cmq">
+                                            <connections>
+                                                <action selector="saveBtnClicked:" destination="BYZ-38-t0r" id="9DW-Kx-vuN"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
